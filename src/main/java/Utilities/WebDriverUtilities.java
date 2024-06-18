@@ -13,7 +13,7 @@ public class WebDriverUtilities {
         driver= new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 
         return driver;
     }
