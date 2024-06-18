@@ -35,7 +35,7 @@ public class TestScript {
         checkoutPage=new CheckoutPage(driver);
     }
     @Test
-    public void checkSucessfulLoginFuntionality() throws InterruptedException {
+    public void checkFuntionality() throws InterruptedException {
         boolean sucessfullLogin = true;
 
         // Login Validation
